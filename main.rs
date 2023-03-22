@@ -11,6 +11,8 @@ fn main() {
     io::stdin()
         .read_line(&mut guess)
         .expect("Failed to read line");
+        // this can also be written as io::stdin().read_line(&mut guess).expect("Failed to read line");
+        
 
     println!("You guessed: {guess}");
 }
